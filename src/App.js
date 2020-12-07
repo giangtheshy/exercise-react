@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+// import BirthDay from './1-birthday'
+// import Tours from './2-Tours'
+// import RandomPerson from './3-random-person'
+// import Question from './4-question'
+import Menu from './5-menu'
+// import Reducer from './reducer'
 
-function App() {
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Menu />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
