@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-color: #e6e6e6;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  .header {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    label {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    input {
+      border: none;
+      font-size: 1.2rem;
+      width: 8rem;
+      padding: 0.3rem;
+      margin: 0 1rem;
+      border: 2px solid transparent;
+      border-radius: 0.3rem;
+      &:focus {
+        border: 2px solid #49a6e9;
+      }
+      &.error {
+        border: rgb(172, 9, 9) 2px solid;
+      }
+    }
+    button {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      margin-left: 1rem;
+      background-color: #49a6e9;
+      color: white;
+      border-radius: 0.2rem;
+      cursor: pointer;
+    }
+  }
+  .colors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+    min-height: calc(100vh-100px);
+
+    .color-center {
+      text-align: center;
+      padding: 2rem 1rem;
+      cursor: pointer;
+      .alert {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
