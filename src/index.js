@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './12-stripe/index.scss';
+import './13-cart/index.scss';
 import App from './App';
-import { AppProvider } from './12-stripe/context'
+import { AppProvider } from './13-cart/context'
 
 ReactDOM.render(
   <AppProvider>

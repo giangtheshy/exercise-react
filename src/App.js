@@ -10,7 +10,8 @@ import React from 'react'
 // import Grocery from './9-grocery'
 // import Navbar from './10-navbar'
 // import Sidebar from './11-sidebar'
-import Stripe from './12-stripe'
+// import Stripe from './12-stripe'
+import Cart from './13-cart'
 // import Reducer from './reducer'
 
 
@@ -18,7 +19,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Stripe />
+      <Cart />
     </div>
   )
 }
