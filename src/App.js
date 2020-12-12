@@ -11,7 +11,7 @@ import React from 'react'
 // import Navbar from './10-navbar'
 // import Sidebar from './11-sidebar'
 // import Stripe from './12-stripe'
-import Cart from './13-cart'
+import Cocktail from './14-cocktail'
 // import Reducer from './reducer'
 
 
@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Cart />
+      <Cocktail />
     </div>
   )
 }
